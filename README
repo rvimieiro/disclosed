@@ -1,0 +1,11 @@
+Author: Renato Vimieiro
+Date: 2012-10-25
+Institution: Centre for Bioinformatics, Biomarker Discovery and Information-based Medicine
+             The University of Newcastle, Australia
+
+Directories:
+
+1 - C/ : Contains standalone implementation of Disclosed in C
+2 - R/ : Contains R package for Disclosed
+3 - sup-material : Contains supplementary material for the paper about Disclosed
+
