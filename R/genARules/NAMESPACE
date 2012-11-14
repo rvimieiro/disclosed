@@ -1,0 +1,15 @@
+useDynLib(genARules,"__R_Call_disclosed")
+
+import("arules")
+
+exportPattern("^[[:alpha:]]+")
+
+exportMethods(
+    "inspect" 
+)
+exportClasses(
+    "disjunctive_itemsets" 
+)
+
+
+

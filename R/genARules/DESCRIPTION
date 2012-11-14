@@ -1,0 +1,16 @@
+Package: genARules
+Type: Package
+Title: Package for mining disjunctive frequent itemsets
+Version: 0.5.1
+Date: 2012-08-22
+Authors@R: c(person("Renato", "Vimieiro", role = c("aut","cre"),
+                          email = "Renato.Vimieiro@newcastle.edu.au"))
+Author: Renato Vimieiro
+Maintainer: Renato Vimieiro <renato.vimieiro@newcastle.edu.au>
+Description: Provides an interface to mine disjunctive frequent itemsets (disjunctive
+		minimal generators, disjunctive closed itemsets	and disjunctive emerging patterns
+		using TitanicOR, Disclosed and QCEP respectively (citation to papers where these
+		algorithms are included in the proper field)
+Classification/ACM: G.4, H.2.8		
+License: GPL(>2)
+Depends: arules (>= 1.0-8), methods

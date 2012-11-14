@@ -1,0 +1,20 @@
+bibentry(header="To cite this package, please cite:",
+	bibtype = "PhDThesis",
+	title = "Mining disjunctive patterns in biomedical data sets",
+	author = person("Renato","Vimieiro"),
+	school = "The University of Newcastle, Australia",
+	year = "2012"
+)
+bibentry(
+	bibtype = "Article",
+	title = "Mining disjunctive minimal generators with TitanicOR",
+	author = c(person("Renato","Vimieiro"),person("Pablo","Moscato")),
+	journal = "Expert Systems with Applications",
+	year = "2012",
+	note="DOI=10.1016/j.eswa.2012.01.141",
+	url="http://dx.doi.org/10.1016/j.eswa.2012.01.141",
+	pages="8228-8238",
+	publisher="Elsevier",
+	number="9",
+	volume="39"
+)

@@ -1,0 +1,2 @@
+PKG_CFLAGS  = -I/usr/share/R/include -msse4.2
+PKG_LIBS = -L/usr/lib/R/lib -lm -lR
