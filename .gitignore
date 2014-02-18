@@ -1,0 +1,8 @@
+*.o
+disclosed-debug
+disclosed-model2
+disclosed-model1
+*.d
+*~
+tmp
+.settings
