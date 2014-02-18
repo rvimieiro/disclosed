@@ -22,8 +22,8 @@ int mincut;
 
 #define author "Renato Vimieiro"
 #define version "0.9"
-#define release "2012-10-29"
-#define program "Disclosed (former CarpentOR)"
+#define release "2014-02-18"
+#define program "Disclosed"
 
 #define BUFFERSIZE 2<<21
 //PrefixTree* FCI;
@@ -73,6 +73,8 @@ int main(int argc, char **argv) {
 
 	signal(SIGINT,SIG_HANDLER);
 	signal(SIGTERM,SIG_HANDLER);
+	signal(SIGABRT,SIG_HANDLER);
+	signal(SIGSEGV,SIG_HANDLER);
 
 	showTIDs = 0;
 
@@ -112,7 +114,7 @@ int main(int argc, char **argv) {
 	else fprintf(stderr,"Printing patterns... \n");
 
 	gettimeofday(&start,NULL);
-	carpentor(output,atoi(argv[2]),atoi(argv[3]));
+	disclosed(output,atoi(argv[2]),atoi(argv[3]));
 	gettimeofday(&stop,NULL);
 
 	timespent = (stop.tv_sec-start.tv_sec);

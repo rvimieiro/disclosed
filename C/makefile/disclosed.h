@@ -12,7 +12,7 @@
 #include "database.h"
 #include "bitarray.h"
 
-void carpentor (FILE * output, int minsup, int maxsup);
+void disclosed (FILE * output, int minsup, int maxsup);
 void traverse  (FILE * output, int** TTx, int sizeTTx, BitArray * X, int minsup, int maxsup, int index);
 
 #endif /* CARPENTOR_H_ */

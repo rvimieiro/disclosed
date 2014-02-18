@@ -34,7 +34,7 @@ BitArray * __tidset;
 inline unsigned char reducible(BitArray *X, BitArray* tidset, int index);
 inline void reduce(BitArray *dst, BitArray *src, int index);
 
-void carpentor (FILE * output, int minsup, int maxsup){
+void disclosed (FILE * output, int minsup, int maxsup){
 	BitArray * X;
 	int* TTx;
 	int i;
